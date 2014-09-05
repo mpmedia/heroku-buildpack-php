@@ -219,7 +219,9 @@ if [[ "${PHP_VERSION}" ]]; then
         exts+=("zend-opcache")
     fi
     install_ext "memcached" "automatic"
-    install_ext "redis" "automatic"
+    exts+=("memcached")
+    install_ext "redis" "automatic)
+    exts+=("redis")
 fi
 
 status "Installing dependencies..."
