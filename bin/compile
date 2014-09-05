@@ -220,7 +220,7 @@ if [[ "${PHP_VERSION}" ]]; then
     fi
     install_ext "memcached" "automatic"
     exts+=("memcached")
-    install_ext "redis" "automatic)
+    install_ext "redis" "automatic")
     exts+=("redis")
 fi
 
